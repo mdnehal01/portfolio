@@ -6,6 +6,7 @@ import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { MacbookScroll } from "@/components/ui/MacScroll";
 import ShimmerButton from "@/components/ui/ShimmerButton";
+import { ModeToggle } from "@/components/ui/ThemeToggle";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { FaAirbnb, FaLocationArrow } from "react-icons/fa6";
 
@@ -34,6 +35,7 @@ export default function Home() {
       sm:px-10 px-5
     ">
       <div className="max-w-7xl w-full">
+        <ModeToggle/>
         <FloatingNav
           navItems={navItems}
         />

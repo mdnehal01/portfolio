@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface ShimmerButtonProps {
-    title: string;
+    title?: string;
     icon: React.ReactNode;
     handleClick?: (id:string) => void;
     otherClasses?: string;
