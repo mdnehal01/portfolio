@@ -1,8 +1,13 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import MacScrollTheme from "@/components/MacScrollTheme";
+import OneMusix from "@/components/OneMusix";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BenitoGrid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import { MacbookScroll } from "@/components/ui/MacScroll";
+import ShimmerButton from "@/components/ui/ShimmerButton";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { FaAirbnb, FaLocationArrow } from "react-icons/fa6";
 
 export default function Home() {
   const navItems = [
@@ -33,7 +38,11 @@ export default function Home() {
           navItems={navItems}
         />
         <Hero/>
+
+        <OneMusix/>
+
         <Grid/>
+        
       </div>
     </main>
   );
