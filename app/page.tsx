@@ -2,7 +2,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import MacScrollTheme from "@/components/MacScrollTheme";
 import OneMusix from "@/components/OneMusix";
-import { BentoGrid, BentoGridItem } from "@/components/ui/BenitoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { MacbookScroll } from "@/components/ui/MacScroll";
 import ShimmerButton from "@/components/ui/ShimmerButton";

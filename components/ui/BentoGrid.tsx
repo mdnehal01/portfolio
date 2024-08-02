@@ -158,25 +158,23 @@ export const BentoGridItem = ({
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie options={{
                   loop:copied,
-                   autoplay: copied,
-                   animationData: animationData,
-                   rendererSettings: {
+                  autoplay: copied,
+                  animationData: animationData,
+                  rendererSettings: {
                     preserveAspectRatio: 'xMidYMid slice'
-                   }
+                  }
                 }}/>
               </div>
+              <ShimmerButton
+                  title={copied ? "Email copied" : 'Copy my email'}
+                  icon={<IoCopyOutline/>}
+                  position="left" 
+                  otherClasses="!bg-[#161a31]"
+                  handleClick={handleCopy}
+                />
             </div>
           )}
         </div>
-
-          <ShimmerButton
-            title={copied ? "Email copied" : 'Copy my email'}
-            icon={<IoCopyOutline/>}
-            position="left" 
-            otherClasses="!bg-[#161a31]"
-            handleClick={handleCopy}
-          />
-
       </div>
     </div>
   );
