@@ -11,7 +11,7 @@ const OneMusix = () => {
     const router = useRouter();
     return (
         <div className='flex flex-col'>
-            <div className="lg:-mt-44 sm:-mt-20 -mt-60 md:scale-100 scale-150 md:h-[2250px] h-[1500px] overflow-hidden relative">
+            <div className="sm:-mt-0 -mt-[420px] md:scale-100 scale-150 md:h-[2250px] h-[1500px] overflow-hidden relative">
                 <MacbookScroll title="Developer and founder of One Musix app." src="/oneMusix.png"/>
             </div>
             <div className='flex justify-center items-center gap-5'>
